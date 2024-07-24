@@ -6,5 +6,6 @@ public class BitwiseOperators {
         System.out.println(5 << 6); // Left Shift Operator
         System.out.println(5 >> 6); // Right Shift Operator
         System.out.println(~6); // One's Complement
+        System.out.println(6^8); // One's Complement
     }
 }
