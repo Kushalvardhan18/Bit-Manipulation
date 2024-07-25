@@ -31,6 +31,6 @@ public class XOR {
     }
     public static void main(String[] args){
         int n =5,start=0;
-        xorOper
+        xorOperation(n,start);
     }
 }
