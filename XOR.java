@@ -21,7 +21,7 @@ Explanation: Array nums is equal to [3, 5, 7, 9] where (3 ^ 5 ^ 7 ^ 9) = 8.
 
 */
 public class XOR {
-    public int xorOperation(int n, int start) {
+    public static int xorOperation(int n, int start) {
 
         int res =0;
         for(int i =0;i<n;i++){
@@ -30,6 +30,7 @@ public class XOR {
         return res;
     }
     public static void main(String[] args){
-        
+        int n =5,start=0;
+        xorOper
     }
 }
