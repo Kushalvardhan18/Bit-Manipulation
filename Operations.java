@@ -18,9 +18,18 @@ public class Operations {
         int bitMask = ~(1<<i);
         return n & bitMask;
     }
+    public static int updateIthBit(int n ,int i,int newBit){
+        if(newBit ==0){
+            return clearIthBit(n,i);
+        }
+        else{
+            return setIthBit(n,i);
+        }
+    }
     public static void main (String[] args){
         System.out.println(getIthBit(10,2));
         System.out.println(setIthBit(10,2));
         System.out.println(clearIthBit(10,1));
+        System.out.println(updateIthBit(10,1,0));
     }
 }
